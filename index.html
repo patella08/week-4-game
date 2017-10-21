@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Javascript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script> 
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+
+    <div id= "wrap">
+        <h1>Crystal Game!!</h1>
+
+            <div id= "game-instructions">
+                <p>You will be given a random number at the start of the game</p>
+                <p>There are four crystals bewlo. By clicking on a crytal you will 
+                    add a specific amount of points to your total score
+                </p>
+                <p>You will win the game by matching your total score to the 
+                    random number, you will lose the game if your total score
+                    goes above the random number
+                </p>
+                <p>The value of each crystal is hidden from you until you 
+                    click on it.
+                </p>
+                <p>
+                    Each time the games startes, the game will change the values
+                    of each crystal.
+                </p>
+            </div>
+
+            <div class = "container">
+                <div id = "guessNumber">
+                    <h2>Random Number:<span class="value"></span></h2>
+                </div>
+
+                <div id = "score">
+                    <h3="status"></h3>
+                    <h4 id="win">Wins: <span id="win"></span></h4>
+                    <h4>Losses: <span id="loss"></span></h4>
+                </div>
+
+            </div>
+
+            <div id = "totalScore">
+                    <h3 id = "yts">Your Total Score:<span id ="yourScore">0</span></h3>                
+            </div>
+
+        <div id = "crystals"></div>
+       
+    </div>
+    
+</body>
+</html>

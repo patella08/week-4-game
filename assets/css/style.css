@@ -1,0 +1,75 @@
+body {
+	background-color: rgb(160, 112, 160);
+}
+
+h1{
+	background-color: rgb(131, 231, 221);
+	color: white;
+	display:inline;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: solid 1px rgb(0, 0, 0);
+}
+
+#wrap {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+}
+
+#game-instructions {
+	background-color: white;
+	width: 50%;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px rgb(0, 0, 0)
+}
+
+#guessNumber {
+	background-color: green;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 20px;
+	border: solid 1px rgb(0, 0, 0)
+}
+
+#score {
+	background-color: #03A9F4;
+	display: inline-block;
+	padding: 15px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: solid 1px rgb(5, 3, 3)
+
+}
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+
+.crystalImage {
+	height: 111px;
+	border: solid 1px #000000;
+	margin-left: 10px
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+#totalScore {
+	margin-bottom: 50px;
+}
+
+#yts {
+    background: #db4b4b;
+	display: inline;
+	padding: 20px;
+	border: solid 1px rgb(0, 0, 0)
+}
